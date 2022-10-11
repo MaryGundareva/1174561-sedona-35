@@ -10,7 +10,7 @@
 <nav class="navigation">
   <ul class="navigation-list">
     <li class="navigation-item">
-      <a class="navigation-link" href="#"><span class="visually-hidden"> Логотип</span><img class="logo" src="" alt="Логотип Седона"> </a>
+      <a class="navigation-link" href="https://htmlacademy.ru/"><span class="visually-hidden"> Логотип</span><img class="logo" src="" alt="Логотип Седона"> </a>
     </li>
     <li class="navigation-item">
       <a href="#">Главная</a>
@@ -20,7 +20,7 @@
         О седоне</a>
     </li>
     <li class="navigation-item">
-      <a href="#">Гостиницы</a>
+      <a href="catalog.html">Гостиницы</a>
     </li>
   </ul>
   <ul class="navigation-list">
@@ -61,6 +61,7 @@
             <h3 class="card-title">
               Настоящий городок
             </h3>
+            <hr>
             <p class="card-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
@@ -75,6 +76,7 @@
             <h3 class="card-title">
               Небольшая площадь
             </h3>
+            <hr>
             <p class="card-description">
               Все достопримечательности находятся очень близко
             </p>
@@ -84,6 +86,7 @@
             <h3 class="card-title">
               Красивая дорога
             </h3>
+            <hr>
             <p class="card-description">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
@@ -93,6 +96,7 @@
             <h3 class="card-title">
               Мало туристов
             </h3>
+            <hr>
             <p class="card-description">
               Большинство едет в Гранд Каньон и толпится там
             </p>
@@ -103,6 +107,7 @@
             <h3 class="card-title">
               Там есть мост дьявола
             </h3>
+            <hr>
             <p class="card-description">
               Да, по нему можно пройти!
               Если вы осмелитесь, разумеется
@@ -154,8 +159,9 @@
     <p class="finder-description">
       Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне
     </p>
-    <button class="finder-button">ПОИСК ГОСТИНИЦЫ В седоне</button>
-  </section>
+    <a href="catalog.html">
+    <button class="finder-button">Поиск гостиницы в Седоне</button>
+  </a></section>
   <footer class="last-footer">
     <section class="mailing">
       <h3 class="mailing-title">
@@ -164,31 +170,37 @@
       <p class="mailing-description">
         Только полезная информация и никакого спама, честное бойскаутское!
       </p>
-      <form class="mailing-form">
+      <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
+        <input placeholder="Ваш e-mail" name="mailing-form" type="email">
+        <button class="mailing-button" type="submit">Подписаться</button>
 
       </form>
-      <button class="mailing-button">Подписаться</button>
+
+
+
     </section>
     <section class="footer-contacts">
 <ul class="social-list">
   <li class="social-item">
-<a>
+<a href="https://vk.com/htmlacademy">
   <img>
 </a>
   </li>
   <li class="social-item">
-    <a>
+    <a href="https://t.me/htmlacademy ">
       <img>
     </a>
       </li>
       <li class="social-item">
-        <a>
+        <a href="https://www.youtube.com/user/htmlacademyru">
           <img>
         </a>
           </li>
 </ul>
-<a>+7 (812) 812-12-12
+<address class="contacts-address">
+<a href="tel:+78128121212">+7 (812) 812-12-12
 </a>
+</address>
 <a>
   <img>
 </a>
