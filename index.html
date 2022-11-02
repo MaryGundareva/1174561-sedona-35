@@ -14,42 +14,44 @@
       <a class="navigation-link" href="https://htmlacademy.ru/"><span class="visually-hidden"> Логотип</span><img class="logo" src="images/logo.svg" alt="Логотип Седона"> </a>
     </li>
     <li class="navigation-item">
-      <a href="index.html">Главная</a>
+      <a class="navigation-link" href="index.html">Главная</a>
     </li>
     <li class="navigation-item">
-      <a href="#">
+      <a class="navigation-link" href="#">
         О седоне</a>
     </li>
     <li class="navigation-item">
-      <a href="catalog.html">Гостиницы</a>
+      <a class="navigation-link" href="catalog.html">Гостиницы</a>
     </li>
   </ul>
   <ul class="navigation-list">
     <li class="navigation-item">
-      <a href="#"><span class="visually-hidden">Поиск</span><img width="44px" height="64px" class="find" src="images/Поиск.png" alt="Поиск"></a>
+      <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span><img width="44px" height="64px" class="find" src="images/Поиск.png" alt="Поиск"></a>
     </li>
     <li class="navigation-item">
-      <a href="#"><span class="visually-hidden">Избранное</span><img class="like" src="images/Vector.png" alt="Избранное"></a>
+      <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><img class="like" src="images/Vector.png" alt="Избранное"></a>
     </li>
-    <li class="navigation-item button">
-      <a href="#">Хочу сюда</a>
+    <li class="navigation-item" class="navigation-item-button">
+      <a class="navigation-link-want" href="#">Хочу сюда</a>
     </li>
   </ul>
 </nav>
 </header>
 <main class="main-index">
+  <section class="main-index-logotip">
   <h1>
 Седона
   </h1>
-  <img width="1200px" height="485px" class="logo-main" alt="Логотип" src="images/view.png">
+  <!-- <img width="1200px" height="485px" class="logo-main" alt="Логотип" src="images/view.png"> -->
+ </section>
   <section class="main-about">
     <h2 class="visually-hidden">
    О Седоне
        </h2>
-    <p>
+    <p class="par-about">
       Седона — небольшой городок в Аризоне,заслуживающий большего!
     </p>
-    <p>
+    <p class="par2-about">
       Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
     </p>
   </section>
@@ -69,7 +71,7 @@
           </li>
           <li class="card-picture">
 
-             <img alt="" src="images/photo-1.jpg" class="card-img" >
+             <img class="city" alt="" src="images/photo-1.jpg" class="card-img" >
 
           </li>
 
@@ -116,7 +118,7 @@
           </li>
           <li class="card-picture">
 
-            <img class="card-img" alt="" src="images/photo-2.jpg">
+            <img class="city2" class="card-img" alt="" src="images/photo-2.jpg">
 
          </li>
          <li class="card-item">
@@ -165,7 +167,7 @@
   </a></section>
   <footer class="last-footer">
     <section class="mailing">
-      <img src="images/Subscribe.png">
+      <!-- <img width="1200px" height="414.86px" class="mailing-img" src="images/Subscribe.png"> -->
       <h3 class="mailing-title">
         Подпишитесь на рассылку
       </h3>
@@ -174,7 +176,7 @@
       </p>
       <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
         <input placeholder="Ваш e-mail" name="mailing-form" type="email">
-        <button class="mailing-button" type="submit">Подписаться</button>
+        <button class="mailing-button" type="submit"><span class="podpis"> Подписаться</span></button>
 
       </form>
 
@@ -200,7 +202,7 @@
           </li>
 </ul>
 <address class="contacts-address">
-<a href="tel:+78128121212">+7 (812) 812-12-12
+<a class="call" href="tel:+78128121212">+7 (812) 812-12-12
 </a>
 </address>
 <a>

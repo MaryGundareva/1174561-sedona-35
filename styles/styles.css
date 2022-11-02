@@ -17,4 +17,199 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+   color: black;
+   background-color: white;
+}
+
+.mailing{
+  background-image: url("../images/Subscribe.png");
+  background-size: 100% auto;
+background-repeat: no-repeat;
+
+height: 414.86px;
+}
+
+
+.main-index-logotip {
+color: #ffffff;
+  background-color: #000000;
+  background-image: url("../images/view.png");
+    background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 485px;
+}
+
+.navigation-item{
+  text-align: center;
+}
+.navigation-link{
+
+  text-decoration: none;
+  color: #000000;
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+}
+  .navigation-item-button {
+    width: 160px;
+height: 36px;
+background: #756157;
+border-radius: 4px;
+
+  }
+.par-about{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+color: #000000;
+text-align: center;
+
+
+}
+.card-item{
+  text-align: center;
+}
+.card-title{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+text-align: center;
+text-transform: uppercase;
+
+}
+.card-description {
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* or 117% */
+text-align: center;
+
+
+}
+.par2-about{
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+text-align: center;
+
+color: #333333;
+}
+.navigation-link-want{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+}
+.city {
+  width: 800px;
+  height: 384px;
+
+}
+.city2 {
+  width: 800px;
+  height: 384px;
+
+}
+.finder-title{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.finder-description{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+}
+.finder-button{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.mailing-title{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.mailing-description{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+.call{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+color: #000000;
+
+}
+
+.podpis{
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+}
+.navigation-list{
+  list-style-type: none;
+}
+.card-list{
+  list-style-type: none;
+}
+.social-list{
+  list-style-type: none;
 }
